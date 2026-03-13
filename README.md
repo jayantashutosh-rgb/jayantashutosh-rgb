@@ -1,16 +1,50 @@
-## Hi there 👋
+# Hi, I'm Ashutosh Jayant
 
-<!--
-**jayantashutosh-rgb/jayantashutosh-rgb** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+I am currently learning Python and Data Analytics and building projects to strengthen my programming and analytical skills.
 
-Here are some ideas to get you started:
+---
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## Skills
+
+Python  
+NumPy  
+Pandas  
+Matplotlib  
+Seaborn  
+SQL  
+Power BI  
+
+---
+
+## Current Learning Focus
+
+Python Programming Fundamentals  
+Data Analysis using NumPy and Pandas  
+Data Visualization  
+Building REST APIs using Flask  
+
+---
+
+## Projects
+
+Python Modules Projects  
+Data Structures  
+Functions  
+Object-Oriented Programming  
+File Handling and Exception Handling  
+
+More projects related to economics and political data analysis will be added soon.
+
+---
+
+## Goals
+
+Build strong programming fundamentals  
+Apply data analytics to economics and political datasets  
+Develop a professional GitHub portfolio
+
+---
+
+## Author
+
+Ashutosh Jayant

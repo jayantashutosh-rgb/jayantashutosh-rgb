@@ -1,36 +1,45 @@
-Hi, I'm Ashutosh Jayant
+# Hi, I'm Ashutosh Jayant
 
-I am currently learning Data Analytics and Python-based data analysis, and building projects to understand how data can be cleaned, analyzed, and visualized using practical tools.
+I am currently learning **Data Analytics** and building projects using **Python** to understand how real-world datasets can be cleaned, analyzed, and visualized.
 
-My academic background includes Commerce, Political Science, and Economics. Through these disciplines I developed a strong conceptual understanding of economic systems, governance, and public policy. Alongside this academic background, I am developing technical skills in programming and data analysis to work with structured datasets.
+My academic background includes **Commerce, Political Science, and Economics**, which gives me a conceptual understanding of economic systems, governance, and public policy. Alongside this background, I am developing technical skills in programming and data analysis to work with structured datasets.
 
-My goal is to combine programming with domain knowledge in economics and public policy to analyze real-world datasets and generate meaningful insights.
+My goal is to combine **programming skills with domain knowledge in economics and public policy** to analyze real-world datasets and generate meaningful insights.
 
-Skills
+---
 
-Programming
+## Skills
+
+### Programming
+
 • Python
 
-Data Analysis
+### Data Analysis
+
 • NumPy
 • Pandas
 
-Data Visualization
+### Data Visualization
+
 • Matplotlib
 • Seaborn
 • Plotly
 • Bokeh
 
-Data Tools
+### Data Tools
+
 • SQL
 • Excel
 • Power BI
 
-Version Control
+### Version Control
+
 • Git
 • GitHub
 
-Current Learning Focus
+---
+
+## Current Learning Focus
 
 • Python programming fundamentals
 • Data analysis using NumPy and Pandas
@@ -38,9 +47,11 @@ Current Learning Focus
 • Building RESTful APIs and applications using Flask
 • Understanding practical data analysis workflows using Jupyter Notebook
 
-Projects
+---
 
-Python Programming Fundamentals
+## Projects
+
+### Python Programming Fundamentals
 
 This repository contains practical exercises covering core Python programming concepts, including:
 
@@ -51,9 +62,11 @@ This repository contains practical exercises covering core Python programming co
 • exception handling
 • logging and memory management
 
-The purpose of this work is to build a strong programming foundation for data analysis and software development.
+These exercises focus on building a strong programming foundation for data analysis and software development.
 
-Python Data Analysis Toolkit
+---
+
+### Python Data Analysis Toolkit
 
 This project demonstrates the practical use of Python libraries commonly used in data analysis.
 
@@ -74,26 +87,32 @@ The project includes exercises such as:
 • filtering and transforming datasets
 • building visualizations such as scatter plots, histograms, heatmaps, line plots, and bar charts
 
-All work is implemented using Jupyter Notebook to understand practical data analysis workflows.
+All work is implemented using **Jupyter Notebook** to understand practical data analysis workflows.
 
-Upcoming Projects
+---
 
-The next set of projects will focus on applying data analysis to real-world datasets:
+## Upcoming Projects
 
-• RESTful APIs and web applications using Flask
+The next set of projects will focus on analyzing real-world datasets:
+
+• RESTful APIs and applications using Flask
 • Indian Union Budget 2026 data analysis
 • Indian Economic Survey 2025–26 data analysis
 • Indian General Election results analysis (2014–2024)
 
 These projects will focus on analyzing public datasets related to economics, public finance, and political data.
 
-Goals
+---
+
+## Goals
 
 • strengthen programming fundamentals in Python
 • develop practical skills in data analysis and visualization
 • work with real-world public datasets related to economics and governance
 • build a professional GitHub portfolio for data analytics roles
 
-Author
+---
+
+## Author
 
 Ashutosh Jayant

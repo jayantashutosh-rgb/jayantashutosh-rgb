@@ -6,13 +6,14 @@ I am currently learning Python and Data Analytics and building projects to stren
 
 ## Skills
 
-Python  
-NumPy  
-Pandas  
-Matplotlib  
-Seaborn  
-SQL  
-Power BI  
+- Python
+- NumPy
+- Pandas
+- SQL
+- Excel
+- Matplotlib
+- Seaborn
+- Power BI
 
 ---
 

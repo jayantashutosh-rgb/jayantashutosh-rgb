@@ -1,60 +1,63 @@
-# Hi, I'm Ashutosh Jayant
+Hi, I'm Ashutosh Jayant
 
-I am currently learning **Python and Data Analytics** and building practical projects to develop strong programming and analytical skills.
+I am currently learning Data Analytics and Python-based data analysis, and building projects to understand how data can be cleaned, analyzed, and visualized using practical tools.
 
-My focus is on understanding how Python tools are used to **clean, analyze, and visualize data**, and gradually applying these skills to real datasets.
+My academic background includes Commerce, Political Science, and Economics. Through these disciplines I developed a strong conceptual understanding of economic systems, governance, and public policy. Alongside this academic background, I am developing technical skills in programming and data analysis to work with structured datasets.
 
-My academic background includes **Economics and Political Science**, which gives me a strong conceptual understanding of economic systems, public policy, and governance. My goal is to combine this domain knowledge with **data analysis and visualization** to work on data-driven insights related to economics and public datasets.
+My goal is to combine programming with domain knowledge in economics and public policy to analyze real-world datasets and generate meaningful insights.
 
----
+Skills
 
-## Skills
-
+Programming
 • Python
+
+Data Analysis
 • NumPy
 • Pandas
+
+Data Visualization
+• Matplotlib
+• Seaborn
+• Plotly
+• Bokeh
+
+Data Tools
 • SQL
 • Excel
-• Matplotlib
-• Seaborn
-• Plotly
-• Bokeh
 • Power BI
-• Git & GitHub
 
----
+Version Control
+• Git
+• GitHub
 
-## Current Learning Focus
+Current Learning Focus
 
-• Python Programming Fundamentals
-• Data Analysis using NumPy and Pandas
-• Data Visualization using Matplotlib and Seaborn
-• Understanding practical data analysis workflows using Python
+• Python programming fundamentals
+• Data analysis using NumPy and Pandas
+• Data visualization using Python libraries
+• Building RESTful APIs and applications using Flask
+• Understanding practical data analysis workflows using Jupyter Notebook
 
----
+Projects
 
-## Projects
+Python Programming Fundamentals
 
-### Python Modules Projects
+This repository contains practical exercises covering core Python programming concepts, including:
 
-This repository contains projects and assignments covering important Python programming concepts.
+• data types and variables
+• Python functions
+• object-oriented programming (OOP)
+• file handling
+• exception handling
+• logging and memory management
 
-Modules included:
+The purpose of this work is to build a strong programming foundation for data analysis and software development.
 
-• Data Structures
-• Python Functions
-• Object-Oriented Programming
-• File Handling and Exception Handling
+Python Data Analysis Toolkit
 
-These projects focus on building a strong foundation in Python programming.
+This project demonstrates the practical use of Python libraries commonly used in data analysis.
 
----
-
-### Data Toolkit – Python Data Analysis Project
-
-The **Data Toolkit project** demonstrates the practical use of commonly used Python libraries for data analysis and visualization.
-
-Libraries used in this project include:
+Libraries used include:
 
 • NumPy
 • Pandas
@@ -63,47 +66,34 @@ Libraries used in this project include:
 • Plotly
 • Bokeh
 
-The project includes practical exercises such as:
+The project includes exercises such as:
 
-• Creating and manipulating NumPy arrays
-• Working with structured datasets using Pandas
-• Generating statistical summaries
-• Filtering and transforming data
-• Creating visualizations such as:
+• creating and manipulating NumPy arrays
+• working with structured datasets using Pandas
+• generating statistical summaries
+• filtering and transforming datasets
+• building visualizations such as scatter plots, histograms, heatmaps, line plots, and bar charts
 
-* Scatter plots
-* Histograms
-* Heatmaps
-* Line plots
-* Bar charts
-* Basic 3D visualizations
+All work is implemented using Jupyter Notebook to understand practical data analysis workflows.
 
-The work is implemented using **Jupyter Notebook** to understand how these tools are used in data analysis workflows.
+Upcoming Projects
 
----
+The next set of projects will focus on applying data analysis to real-world datasets:
 
-## Future Learning Roadmap
+• RESTful APIs and web applications using Flask
+• Indian Union Budget 2026 data analysis
+• Indian Economic Survey 2025–26 data analysis
+• Indian General Election results analysis (2014–2024)
 
-My upcoming learning and projects will focus on:
+These projects will focus on analyzing public datasets related to economics, public finance, and political data.
 
-• Deepening understanding of NumPy and Pandas
-• Advanced data visualization using Python libraries
-• Building Flask-based Python applications
-• SQL for data analysis
-• Power BI dashboards
-• Working with public datasets related to **economics and policy**
+Goals
 
----
+• strengthen programming fundamentals in Python
+• develop practical skills in data analysis and visualization
+• work with real-world public datasets related to economics and governance
+• build a professional GitHub portfolio for data analytics roles
 
-## Goals
-
-• Build strong programming fundamentals
-• Develop practical skills in data analysis using Python
-• Apply data analysis techniques to economics and public datasets
-• Build a professional GitHub portfolio through real projects
-
----
-
-## Author
+Author
 
 Ashutosh Jayant

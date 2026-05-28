@@ -1,118 +1,65 @@
 # Hi, I'm Ashutosh Jayant
 
-I am currently learning **Data Analytics** and building projects using **Python** to understand how real-world datasets can be cleaned, analyzed, and visualized.
+MCA student exploring **data analytics and public policy**. My background is in Commerce, Political Science, and Economics, and I'm building Python-based projects that work with real Government of India datasets — budget documents, economic surveys, election data.
 
-My academic background includes **Commerce, Political Science, and Economics**, which gives me a conceptual understanding of economic systems, governance, and public policy. Alongside this background, I am developing technical skills in programming and data analysis to work with structured datasets.
-
-My goal is to combine **programming skills with domain knowledge in economics and public policy** to analyze real-world datasets and generate meaningful insights.
+The goal is to combine domain knowledge in economics and policy with programming skills, and to produce analytical work that is reproducible and honestly documented.
 
 ---
 
 ## Skills
 
-### Programming
-
-• Python
-
-### Data Analysis
-
-• NumPy
-• Pandas
-
-### Data Visualization
-
-• Matplotlib
-• Seaborn
-• Plotly
-• Bokeh
-
-### Data Tools
-
-• SQL
-• Excel
-• Power BI
-
-### Version Control
-
-• Git
-• GitHub
+**Languages:** Python, SQL (basics)  
+**Data analysis:** Pandas, NumPy, Matplotlib  
+**PDF extraction:** PyMuPDF, Regex  
+**Tools:** Jupyter Notebook, Git, GitHub, Excel  
+**Methods:** ETL pipeline design, data validation, exploratory analysis, data visualisation
 
 ---
 
-## Current Learning Focus
+## Featured Project
 
-• Python programming fundamentals
-• Data analysis using NumPy and Pandas
-• Data visualization using Python libraries
-• Building RESTful APIs and applications using Flask
-• Understanding practical data analysis workflows using Jupyter Notebook
+### India Union Budget — Capability Approach Analysis (2026)
 
----
+A research-oriented analysis of India's Union Budget 2026-27 viewed through Amartya Sen's Capability Approach. Built a reproducible Python pipeline that extracts ministry-level expenditure data from official Government of India PDFs, validates it against the published Grand Total, and classifies 102 ministries into capability domains (health, education, nutrition, social protection, economic opportunity).
 
-## Projects
+Key things this project does that most budget analyses don't:
+- Reconciles the extracted dataset against the official Grand Total (residual variance: Rs 0.19 crore against a base of Rs 53.47 lakh crore)
+- Documents contested classifications openly rather than hiding judgement calls
+- Separates descriptive findings from causal claims
+- Includes a written limitations section
 
-### Python Programming Fundamentals
-
-This repository contains practical exercises covering core Python programming concepts, including:
-
-• data types and variables
-• Python functions
-• object-oriented programming (OOP)
-• file handling
-• exception handling
-• logging and memory management
-
-These exercises focus on building a strong programming foundation for data analysis and software development.
+Repo: [india-union-budget-capability-analysis](https://github.com/jayantashutosh-rgb/india-union-budget-capability-analysis)
 
 ---
+
+## Other Projects
 
 ### Python Data Analysis Toolkit
+Practical exercises using Pandas, NumPy, and Matplotlib — array manipulation, structured-data operations, statistical summaries, and visualisation patterns. Built as foundation work before moving to real public datasets.
 
-This project demonstrates the practical use of Python libraries commonly used in data analysis.
-
-Libraries used include:
-
-• NumPy
-• Pandas
-• Matplotlib
-• Seaborn
-• Plotly
-• Bokeh
-
-The project includes exercises such as:
-
-• creating and manipulating NumPy arrays
-• working with structured datasets using Pandas
-• generating statistical summaries
-• filtering and transforming datasets
-• building visualizations such as scatter plots, histograms, heatmaps, line plots, and bar charts
-
-All work is implemented using **Jupyter Notebook** to understand practical data analysis workflows.
+### Python Programming Fundamentals
+Core Python concepts including data types, functions, file handling, and exception handling. Foundation for the data analysis work above.
 
 ---
 
-## Upcoming Projects
+## In Progress
 
-The next set of projects will focus on analyzing real-world datasets:
-
-• RESTful APIs and applications using Flask
-• Indian Union Budget 2026 data analysis
-• Indian Economic Survey 2025–26 data analysis
-• Indian General Election results analysis (2014–2024)
-
-These projects will focus on analyzing public datasets related to economics, public finance, and political data.
+### Indian Economic Survey 2025-26 — Capability Approach Analysis
+The next research project. The Economic Survey is the Government of India's annual review of the economy presented before the Union Budget. The plan is to apply the same Capability Approach lens used in the budget analysis to the survey's chapters on health, education, employment, and social sectors, to see how the government's own diagnostic framing maps to capability outcomes.
 
 ---
 
-## Goals
+## Background
 
-• strengthen programming fundamentals in Python
-• develop practical skills in data analysis and visualization
-• work with real-world public datasets related to economics and governance
-• build a professional GitHub portfolio for data analytics roles
+- Master of Computer Applications (MCA), Mangalayatan University, Aligarh (2025 – Present)
+- M.A. Economics, Swami Vivekanand Subharti University (Completed 2026)
+- M.A. Political Science, IGNOU (Completed 2022)
+- Bachelor of Commerce, Delhi College of Arts & Commerce, University of Delhi (2016)
+
+Extended UPSC Civil Services preparation, which built sustained engagement with economics, public policy, and government data interpretation.
 
 ---
 
-## Author
+## Contact
 
-Ashutosh Jayant
+[LinkedIn](https://linkedin.com/in/ashutoshjayant954a54) · [Email](mailto:jayantashutosh@gmail.com)

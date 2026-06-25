@@ -1,45 +1,83 @@
 # Hi, I'm Ashutosh Jayant
 
-MCA student exploring data analytics and public policy. My background is in Commerce, Political Science, and Economics, and I work on Python-based projects that use real Government of India datasets — budget documents, economic surveys, election data.
+MCA student exploring data analytics and public policy. My background is in
+Commerce, Political Science, and Economics, and I work on Python-based projects that
+use real-world datasets — Government of India documents like budgets and economic
+surveys, as well as global development data from the UN, World Bank and other
+sources.
 
-The aim is to combine domain knowledge in economics and policy with programming skills, and to produce analytical work that is reproducible and honestly documented.
+The aim is to combine domain knowledge in economics and policy with programming
+skills, and to produce analytical work that is reproducible and honestly documented.
 
 ## Skills
 
-- Languages: Python, SQL
-- Data analysis: Pandas, NumPy, Matplotlib, Seaborn
-- Database: SQLite (schema design, indexes, CTEs, aggregations)
-- PDF extraction: pdfplumber, PyMuPDF, Regex
-- Tools: Jupyter Notebook, VS Code, Git, GitHub, Excel
-- Methods: ETL pipeline design, data validation, text analysis, data visualisation
+* Languages: Python, SQL
+* Data analysis: Pandas, NumPy, Matplotlib, Seaborn
+* Statistics: correlation, regression, hypothesis testing, clustering (scikit-learn)
+* Database: SQLite (schema design, indexes, CTEs, window functions, aggregations)
+* PDF extraction: pdfplumber, PyMuPDF, Regex
+* Tools: Jupyter Notebook, VS Code, Git, GitHub, Excel
+* Methods: ETL pipeline design, data validation, text analysis, data visualisation
 
 ## Featured Projects
 
+### Beyond GDP — Human Development and Capability Analysis
+
+A cross-country study asking whether GDP alone explains human development, or whether
+health, education, freedom, social support and governance matter as much. The project
+merges four global sources (UNDP, World Bank, World Happiness Report, Transparency
+International) into one dataset for 130 countries and tests the question with SQL,
+statistics, clustering and an experimental capability index inspired by Amartya Sen.
+
+* End-to-end pipeline: cleaning and merging four sources → SQLite database → SQL
+  analysis → EDA → statistics → clustering → capability index
+* Regression showing GDP is not a significant predictor of HDI once happiness and
+  governance are included
+* KMeans clustering of countries into development groups (validated with elbow and
+  silhouette methods)
+* An experimental capability index (built without income) that correlates 0.94 with
+  HDI and 0.86 with happiness, but only 0.67 with GDP
+* A written limitations section
+
+Repo: [beyond-gdp-capability-analysis](https://github.com/jayantashutosh-rgb/beyond-gdp-capability-analysis)
+
 ### Indian Economic Survey 2025-26 — Capability Approach Analysis
 
-A text analysis of the Indian Economic Survey 2025-26 (Government of India, Ministry of Finance) that asks a narrow question: when a 740-page government document talks about development, whose vocabulary does it use?
+A text analysis of the Indian Economic Survey 2025-26 (Government of India, Ministry
+of Finance) that asks a narrow question: when a 740-page government document talks
+about development, whose vocabulary does it use?
 
-The project builds a SQLite database from the PDF, runs SQL and Python analysis on the text, and documents what it finds. What is in the project:
+The project builds a SQLite database from the PDF, runs SQL and Python analysis on
+the text, and documents what it finds. What is in the project:
 
-- End-to-end pipeline: PDF extraction → cleaning → SQLite database (17 chapters, 676 pages, 252,587 words) → SQL queries → Python deep dives → charts
-- Six SQL analytical queries using CTEs, aggregations, and the LENGTH/REPLACE substring-counting pattern for keyword density
-- Two rounds of manual classification (66 + 44 entries) with the full context windows committed for review
-- Six charts built with matplotlib and seaborn
-- Findings and methodology kept in separate documents so claims and methods can be reviewed independently
-- A written limitations section
+* End-to-end pipeline: PDF extraction → cleaning → SQLite database (17 chapters, 676
+  pages, 252,587 words) → SQL queries → Python deep dives → charts
+* Six SQL analytical queries using CTEs, aggregations, and the LENGTH/REPLACE
+  substring-counting pattern for keyword density
+* Two rounds of manual classification (66 + 44 entries) with the full context windows
+  committed for review
+* Six charts built with matplotlib and seaborn
+* Findings and methodology kept in separate documents so claims and methods can be
+  reviewed independently
+* A written limitations section
 
 Repo: [economic-survey-capability-analysis](https://github.com/jayantashutosh-rgb/economic-survey-capability-analysis)
 
 ### India Union Budget 2026-27 — Capability Approach Analysis
 
-A research-oriented analysis of India's Union Budget 2026-27 viewed through Amartya Sen's Capability Approach. The project extracts ministry-level expenditure data from official Government of India PDFs, validates it against the published Grand Total, and classifies 102 ministries into capability domains (health, education, nutrition, social protection, economic opportunity).
+A research-oriented analysis of India's Union Budget 2026-27 viewed through Amartya
+Sen's Capability Approach. The project extracts ministry-level expenditure data from
+official Government of India PDFs, validates it against the published Grand Total, and
+classifies 102 ministries into capability domains (health, education, nutrition,
+social protection, economic opportunity).
 
 A few things this project does that most budget summaries don't:
 
-- Reconciles the extracted dataset against the official Grand Total (residual variance: Rs 0.19 crore against a base of Rs 53.47 lakh crore)
-- Documents contested classifications openly rather than hiding judgement calls
-- Separates descriptive findings from causal claims
-- Includes a written limitations section
+* Reconciles the extracted dataset against the official Grand Total (residual
+  variance: Rs 0.19 crore against a base of Rs 53.47 lakh crore)
+* Documents contested classifications openly rather than hiding judgement calls
+* Separates descriptive findings from causal claims
+* Includes a written limitations section
 
 Repo: [india-union-budget-capability-analysis](https://github.com/jayantashutosh-rgb/india-union-budget-capability-analysis)
 
@@ -47,20 +85,24 @@ Repo: [india-union-budget-capability-analysis](https://github.com/jayantashutosh
 
 ### Python Data Analysis Toolkit
 
-Practical exercises using Pandas, NumPy, and Matplotlib — array manipulation, structured-data operations, statistical summaries, and visualisation patterns. Built as foundation work before moving to real public datasets.
+Practical exercises using Pandas, NumPy, and Matplotlib — array manipulation,
+structured-data operations, statistical summaries, and visualisation patterns. Built
+as foundation work before moving to real public datasets.
 
 ### Python Programming Fundamentals
 
-Core Python concepts including data types, functions, file handling, and exception handling. Foundation for the data analysis work above.
+Core Python concepts including data types, functions, file handling, and exception
+handling. Foundation for the data analysis work above.
 
 ## Background
 
-- Master of Computer Applications (MCA), Mangalayatan University, Aligarh (2025 – Present)
-- M.A. Economics, Swami Vivekanand Subharti University (Completed 2026)
-- M.A. Political Science, IGNOU (Completed 2022)
-- Bachelor of Commerce, Delhi College of Arts & Commerce, University of Delhi (2016)
+* Master of Computer Applications (MCA), Mangalayatan University, Aligarh (2025 – Present)
+* M.A. Economics, Swami Vivekanand Subharti University (Completed 2026)
+* M.A. Political Science, IGNOU (Completed 2022)
+* Bachelor of Commerce, Delhi College of Arts & Commerce, University of Delhi (2015)
 
-Extended UPSC Civil Services preparation, which built sustained engagement with economics, public policy, and government data interpretation.
+Extended UPSC Civil Services preparation, which built sustained engagement with
+economics, public policy, and government data interpretation.
 
 ## Contact
 

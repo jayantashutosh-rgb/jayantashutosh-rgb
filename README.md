@@ -1,134 +1,195 @@
-# Hi, I'm Ashutosh Jayant
+# Ashutosh Jayant
 
-MCA student exploring data analytics and public policy. My background is in
-Commerce, Political Science, and Economics, and I work on Python-based projects that
-use real-world datasets — Government of India documents like budgets, economic
-surveys and statistical handbooks, as well as global development data from the UN,
-World Bank and other sources.
+I build data analytics and research projects using Python, SQL, and official public datasets.
 
-The aim is to combine domain knowledge in economics and policy with programming
-skills, and to produce analytical work that is reproducible and honestly documented.
+My work sits at the intersection of **Data Analytics, Economics, and Public Policy**, where I use programming to transform government reports, statistical publications, and large public datasets into reproducible analytical workflows.
 
-## Skills
+Most of my projects begin with raw data such as PDFs, statistical handbooks, budgets, economic surveys, and international development datasets. From there, I build complete pipelines covering data extraction, cleaning, validation, feature engineering, statistical analysis, visualization, and documentation.
 
-* Languages: Python, SQL
-* Data analysis: Pandas, NumPy, Matplotlib, Seaborn
-* Statistics: correlation, regression, hypothesis testing, clustering (scikit-learn)
-* Database: SQLite (schema design, indexes, CTEs, window functions, aggregations)
-* PDF extraction: pdfplumber, PyMuPDF, Regex
-* Tools: Jupyter Notebook, VS Code, Git, GitHub, Excel
-* Methods: ETL pipeline design, data validation, index construction, sensitivity
-  analysis, text analysis, data visualisation
+Alongside Indian government data, I also work with datasets from organizations such as the United Nations, the World Bank, Transparency International, and the World Happiness Report to study questions related to economic development, governance, and human capability.
 
-## Featured Projects
+Every repository in this profile follows three principles:
 
-### India State Competitiveness Index (ISCI) — Porter's Diamond Analysis
+- **Transparency** — important assumptions, design decisions, and limitations are documented.
+- **Reproducibility** — every result can be recreated from the original data.
+- **Evidence over opinion** — conclusions are supported by data rather than assumptions.
 
-A competitiveness index for India's states and union territories, built entirely from
-official Government of India data (the RBI Handbook of Statistics on Indian States and
-the MSME Annual Report) and structured around Michael Porter's Diamond framework.
-Version 1.0 builds and validates the index; Version 2.0 explains it through analysis,
-interpretation and simulation.
+This GitHub serves as a portfolio of my work in data analytics, applied economics, and computational public policy.
 
-* End-to-end pipeline across 15 notebooks: PDF extraction (a 472-page handbook) →
-  cleaning and feature engineering → index construction → validation → analysis →
-  reporting
-* 11 indicators mapped to two of Porter's four determinants; the other two are
-  documented as limitations rather than guessed
-* Min-Max normalization, equal weights and an 8-of-11 coverage rule, tested with a
-  sensitivity analysis (Spearman correlation 0.99+ across three checks)
-* KMeans clustering into three state types, followed by gap analysis, evidence-based
-  development priorities, and "what-if" scenario simulations
-* Keeps evidence separate from interpretation, and priority areas separate from policy
-  prescriptions
-* A written limitations section, plus a thesis, research-decisions and project-philosophy
-  document
+---
 
-Repo: [india-state-competitiveness-index](https://github.com/jayantashutosh-rgb/india-state-competitiveness-index)
+# Skills
 
-### Beyond GDP — Human Development and Capability Analysis
+### Programming
 
-A cross-country study asking whether GDP alone explains human development, or whether
-health, education, freedom, social support and governance matter as much. The project
-merges four global sources (UNDP, World Bank, World Happiness Report, Transparency
-International) into one dataset for 130 countries and tests the question with SQL,
-statistics, clustering and an experimental capability index inspired by Amartya Sen.
+- Python
+- SQL
 
-* End-to-end pipeline: cleaning and merging four sources → SQLite database → SQL
-  analysis → EDA → statistics → clustering → capability index
-* Regression showing GDP is not a significant predictor of HDI once happiness and
-  governance are included
-* KMeans clustering of countries into development groups (validated with elbow and
-  silhouette methods)
-* An experimental capability index (built without income) that correlates 0.94 with
-  HDI and 0.86 with happiness, but only 0.67 with GDP
-* A written limitations section
+### Data Analytics
 
-Repo: [beyond-gdp-capability-analysis](https://github.com/jayantashutosh-rgb/beyond-gdp-capability-analysis)
+- Pandas
+- NumPy
+- Matplotlib
+- Seaborn
 
-### Indian Economic Survey 2025-26 — Capability Approach Analysis
+### Statistics & Machine Learning
 
-A text analysis of the Indian Economic Survey 2025-26 (Government of India, Ministry
-of Finance) that asks a narrow question: when a 740-page government document talks
-about development, whose vocabulary does it use?
+- Correlation Analysis
+- Regression Analysis
+- Hypothesis Testing
+- K-Means Clustering
 
-The project builds a SQLite database from the PDF, runs SQL and Python analysis on
-the text, and documents what it finds. What is in the project:
+### Databases
 
-* End-to-end pipeline: PDF extraction → cleaning → SQLite database (17 chapters, 676
-  pages, 252,587 words) → SQL queries → Python deep dives → charts
-* Six SQL analytical queries using CTEs, aggregations, and the LENGTH/REPLACE
-  substring-counting pattern for keyword density
-* Two rounds of manual classification (66 + 44 entries) with the full context windows
-  committed for review
-* Six charts built with matplotlib and seaborn
-* Findings and methodology kept in separate documents so claims and methods can be
-  reviewed independently
-* A written limitations section
+- SQLite
+- Database Design
+- CTEs
+- Window Functions
+- Query Optimization
 
-Repo: [economic-survey-capability-analysis](https://github.com/jayantashutosh-rgb/economic-survey-capability-analysis)
+### Data Engineering
 
-### India Union Budget 2026-27 — Capability Approach Analysis
+- ETL Pipeline Design
+- Data Cleaning
+- Feature Engineering
+- Data Validation
+- PDF Extraction
+- Regex
+- pdfplumber
+- PyMuPDF
 
-A research-oriented analysis of India's Union Budget 2026-27 viewed through Amartya
-Sen's Capability Approach. The project extracts ministry-level expenditure data from
-official Government of India PDFs, validates it against the published Grand Total, and
-classifies 102 ministries into capability domains (health, education, nutrition,
-social protection, economic opportunity).
+### Tools
 
-A few things this project does that most budget summaries don't:
+- Jupyter Notebook
+- Git
+- GitHub
+- VS Code
+- Excel
 
-* Reconciles the extracted dataset against the official Grand Total (residual
-  variance: Rs 0.19 crore against a base of Rs 53.47 lakh crore)
-* Documents contested classifications openly rather than hiding judgement calls
-* Separates descriptive findings from causal claims
-* Includes a written limitations section
+---
 
-Repo: [india-union-budget-capability-analysis](https://github.com/jayantashutosh-rgb/india-union-budget-capability-analysis)
+# Featured Projects
 
-## Other Projects
+The repositories below represent my primary portfolio work. Each project starts with a research question and follows a complete workflow—from acquiring raw data to producing documented, reproducible results.
 
-### Python Data Analysis Toolkit
+---
 
-Practical exercises using Pandas, NumPy, and Matplotlib — array manipulation,
-structured-data operations, statistical summaries, and visualisation patterns. Built
-as foundation work before moving to real public datasets.
+## India State Competitiveness Index (ISCI)
 
-### Python Programming Fundamentals
+A state-level competitiveness index for India built entirely from official Government of India data using Michael Porter's Diamond framework.
 
-Core Python concepts including data types, functions, file handling, and exception
-handling. Foundation for the data analysis work above.
+The project transforms official statistical publications into a reproducible competitiveness index covering 33 states and union territories, followed by validation, interpretation, clustering, and policy-oriented analysis.
 
-## Background
+### Highlights
 
-* Master of Computer Applications (MCA), Mangalayatan University, Aligarh (2025 – Present)
-* M.A. Economics, Swami Vivekanand Subharti University (Completed 2026)
-* M.A. Political Science, IGNOU (Completed 2022)
-* Bachelor of Commerce, Delhi College of Arts & Commerce, University of Delhi (2015)
+- Built from RBI Handbook of Statistics on Indian States and the MSME Annual Report
+- Processed a 470+ page statistical handbook
+- Extracted 17 indicator tables
+- Constructed 11 competitiveness indicators
+- Built an end-to-end workflow across 15 Jupyter notebooks
+- Ranked 33 states and union territories
+- Performed robustness and sensitivity analysis
+- Identified three state clusters using K-Means
+- Produced research reports, methodology documents, and technical documentation
 
-Extended UPSC Civil Services preparation, which built sustained engagement with
-economics, public policy, and government data interpretation.
+Repository
 
-## Contact
+https://github.com/jayantashutosh-rgb/india-state-competitiveness-index
 
-[LinkedIn](https://www.linkedin.com/in/ashutosh-jayant-954a54a0/) · jayantashutosh@gmail.com
+---
+
+## Beyond GDP — Human Development & Capability Analysis
+
+A cross-country analytical study examining whether GDP alone explains human development, or whether health, education, governance, freedom, and social support provide a better explanation.
+
+The project combines multiple international datasets into a unified analytical pipeline covering data engineering, SQL analysis, statistics, clustering, and capability index construction.
+
+### Highlights
+
+- Integrated four international datasets
+- Analysed 130 countries
+- Built SQLite analytical database
+- Regression analysis
+- K-Means clustering
+- Experimental Capability Index
+- Reproducible Python and SQL workflow
+
+Repository
+
+https://github.com/jayantashutosh-rgb/beyond-gdp-capability-analysis
+
+---
+
+## Indian Economic Survey 2025–26 — Capability Analysis
+
+A computational text analysis of India's Economic Survey that studies how development is described throughout the document.
+
+The project converts the survey into a structured database and combines SQL with Python to analyse vocabulary, themes, and policy emphasis.
+
+### Highlights
+
+- Processed a 740-page government publication
+- Built searchable SQLite database
+- Analysed more than 250,000 words
+- SQL and Python analytical workflow
+- Data visualization
+- Documented methodology and limitations
+
+Repository
+
+https://github.com/jayantashutosh-rgb/economic-survey-capability-analysis
+
+---
+
+## India Union Budget 2026–27 — Capability Analysis
+
+A data engineering and analytical project examining India's Union Budget through Amartya Sen's Capability Approach.
+
+The project extracts ministry-wise expenditure from official budget documents, validates the extracted data, classifies expenditure into capability domains, and documents every methodological decision.
+
+### Highlights
+
+- Ministry-level expenditure extraction
+- Validation against official budget totals
+- Classification of 102 ministries
+- Transparent methodology
+- Fully documented workflow
+
+Repository
+
+https://github.com/jayantashutosh-rgb/india-union-budget-capability-analysis
+
+---
+
+# Other Projects
+
+Additional repositories include smaller learning projects, programming exercises, and experiments that supported the development of the larger analytical projects featured above.
+
+---
+
+# Background
+
+My academic background combines Commerce, Economics, Political Science, and Computer Applications.
+
+Before transitioning into data analytics, I spent several years studying economics and public policy through UPSC Civil Services preparation. That experience developed a lasting interest in government data, public finance, economic surveys, and evidence-based policy analysis.
+
+Today, I combine that domain knowledge with Python and SQL to build analytical projects that are transparent, reproducible, and grounded in official data.
+
+## Education
+
+- Master of Computer Applications (MCA), Mangalayatan University (2025 – Present)
+- M.A. Economics (2026)
+- M.A. Political Science (2022)
+- Bachelor of Commerce, Delhi College of Arts & Commerce, University of Delhi (2015)
+
+---
+
+# Connect
+
+LinkedIn
+
+https://www.linkedin.com/in/ashutosh-jayant-954a54a0/
+
+Email
+
+jayantashutosh@gmail.com

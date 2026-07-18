@@ -2,9 +2,9 @@
 
 MCA student exploring data analytics and public policy. My background is in
 Commerce, Political Science, and Economics, and I work on Python-based projects that
-use real-world datasets — Government of India documents like budgets and economic
-surveys, as well as global development data from the UN, World Bank and other
-sources.
+use real-world datasets — Government of India documents like budgets, economic
+surveys and statistical handbooks, as well as global development data from the UN,
+World Bank and other sources.
 
 The aim is to combine domain knowledge in economics and policy with programming
 skills, and to produce analytical work that is reproducible and honestly documented.
@@ -17,9 +17,34 @@ skills, and to produce analytical work that is reproducible and honestly documen
 * Database: SQLite (schema design, indexes, CTEs, window functions, aggregations)
 * PDF extraction: pdfplumber, PyMuPDF, Regex
 * Tools: Jupyter Notebook, VS Code, Git, GitHub, Excel
-* Methods: ETL pipeline design, data validation, text analysis, data visualisation
+* Methods: ETL pipeline design, data validation, index construction, sensitivity
+  analysis, text analysis, data visualisation
 
 ## Featured Projects
+
+### India State Competitiveness Index (ISCI) — Porter's Diamond Analysis
+
+A competitiveness index for India's states and union territories, built entirely from
+official Government of India data (the RBI Handbook of Statistics on Indian States and
+the MSME Annual Report) and structured around Michael Porter's Diamond framework.
+Version 1.0 builds and validates the index; Version 2.0 explains it through analysis,
+interpretation and simulation.
+
+* End-to-end pipeline across 15 notebooks: PDF extraction (a 472-page handbook) →
+  cleaning and feature engineering → index construction → validation → analysis →
+  reporting
+* 11 indicators mapped to two of Porter's four determinants; the other two are
+  documented as limitations rather than guessed
+* Min-Max normalization, equal weights and an 8-of-11 coverage rule, tested with a
+  sensitivity analysis (Spearman correlation 0.99+ across three checks)
+* KMeans clustering into three state types, followed by gap analysis, evidence-based
+  development priorities, and "what-if" scenario simulations
+* Keeps evidence separate from interpretation, and priority areas separate from policy
+  prescriptions
+* A written limitations section, plus a thesis, research-decisions and project-philosophy
+  document
+
+Repo: [india-state-competitiveness-index](https://github.com/jayantashutosh-rgb/india-state-competitiveness-index)
 
 ### Beyond GDP — Human Development and Capability Analysis
 
